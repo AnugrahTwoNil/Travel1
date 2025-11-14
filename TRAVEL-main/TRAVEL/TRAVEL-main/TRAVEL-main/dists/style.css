@@ -1,0 +1,170 @@
+html {
+    scroll-padding: 60px;
+}
+
+#nav {
+    cursor: pointer;
+    background-color: #5B98BA;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(1, 1, 1,0.5)),url(../img/emile-guillemot-SwYNlF4GpHg-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+#join {
+    background-color: #5B98BA;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s ease;
+}
+
+#join:hover  {
+    background-color: #145DA0;
+}
+
+.delta {
+    margin-top: 30px;
+}
+
+#service {
+    margin-top: 150px;
+}
+
+.services i{
+    color: #5B98BA;
+}
+/* PHONE */
+@media screen and (max-width:475px) {
+    .perusahaan img {
+        width: 80%;
+    }
+    .logo2 {
+        margin-top: 20px;
+    }
+    .services {
+        text-align: center;
+    }
+    .services img {
+        margin-top: 10px;
+    }
+    .booking p {
+        display: flex;
+        text-align: start;
+        margin-left: -60px;
+    }
+    .services img {
+        width: 180px;
+        height: 300px;
+    }
+}
+/* PHONE */
+
+/* LAPTOP */
+@media screen and (min-width:476px) and (max-width:1280px) {
+    .services img {
+        width: 270px;
+        height: 480px;
+    }
+}
+/* LAPTOP */
+.choice {
+    color: white;
+    background-color: #5B98BA;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.booking a{
+    text-decoration: none;
+    color: #687078;
+    transition: 0.3s ease;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.booking a:hover {
+    color: #145DA0;
+}
+
+.guides {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.guides a {
+    text-decoration: none;
+    color: white;
+}
+
+.guides a:hover {
+    text-decoration: underline;
+}
+
+.hotels i {
+    color: #FFDC00;
+}
+
+.hotels {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.footer {
+    background-color:#145DA0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer a, .footer p, .footer h2 {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.hotels .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+.hotels .btn {
+    background-color: #5B98BA;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.hotels .btn:hover {
+    background-color: #145DA0;
+}
+
+.hotels .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-8px);
+}
+
+#hotelModal i {
+    color:#FFDC00 ;
+}
+
+#hotelModalBook {
+    background-color: #5B98BA;
+    color: white;
+    transition: 0.3s ease;
+}
+
+#hotelModalBook:hover {
+    background-color: #145DA0;
+}
+
+.footer img {
+    padding: 5px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: white;
+}
